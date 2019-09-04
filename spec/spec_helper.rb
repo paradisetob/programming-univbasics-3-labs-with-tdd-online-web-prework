@@ -14,3 +14,6 @@ def get_variable_from_file(file, variable)
     raise NameError, "local variable #{variable} not defined in #{file}."
   end
 end
+./calculator.rb
+  contains a local variable called first_number that is assigned to a number
+  
